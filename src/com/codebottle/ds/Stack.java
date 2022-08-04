@@ -2,9 +2,9 @@ package com.codebottle.ds;
 
 public class Stack<T> {
 	
-	T data = null;
-	Stack<T> top = null;	
-	Stack<T> previous = null;	
+	private T data = null;
+	private Stack<T> top = null;	
+	private Stack<T> previous = null;	
 	
 	public Stack() {
 		super();
